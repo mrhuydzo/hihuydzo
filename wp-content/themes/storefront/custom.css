@@ -1,0 +1,39 @@
+/*Header*/
+#masthead.site-header {margin: 0}
+.header-widget-region .widget {overflow: hidden}
+
+/*Slider*/
+.widget_simpleresponsiveslider_widget .rslides_container {margin-bottom: 20px ;}
+.rslides_container .rslides_nav.next {right: 5%}
+.rslides_container .rslides_nav.prev {left: 5%}
+
+/*Button Add to cart*/
+.ul.products li.product .button {padding: 10px 15px}
+.ul.products li.product .button.add_to_cart_button {margin-right: 10px}
+.ul.products li.product .button.yith-wcqv-button {}
+
+
+.footer_icons {text-align: center;padding: 10px 0;border-bottom: solid 1px #8e8e7c;border-top: solid 1px #8e8e7c;color: #8e8e7c;text-transform: uppercase}
+.footer_icon {display: inline-block;margin: 0 20px;text-indent: -9999em;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+.footer_icon-fanpage {background: url(assets/images/icon-facebook.png) no-repeat 0 0;width: 20px;height: 40px}
+.footer_icon-fanpage:hover {background-image: url(assets/images/icon-facebook-hover.png)}
+.footer_icon-youtube {background: url(assets/images/icon-youtube.png) no-repeat 0 0;width: 102px;height: 40px}
+.footer_icon-youtube:hover {background-image: url(assets/images/icon-youtube-hover.png)}
+.footer_icon-instagram {background: url(assets/images/icon-instagram.png) no-repeat 0 0;width: 40px;height: 40px}
+.footer_icon-instagram:hover {background-image: url(assets/images/icon-instagram-hover.png)}
+.footer_icon-email {background: url(assets/images/icon-email.png) no-repeat 0 0;width: 52px;height: 40px}
+.footer_icon-hotline {font-size: 24px;display: inline-block;vertical-align: -10px;}
+
+.navbot {}
+.navbot_lst {text-align: center;list-style: none;margin: 0;padding: 20px 0;display: flex;justify-content: space-around;flex-direction: row;}
+.navbot_item {display: inline-block;}
+.navbot_item a {text-transform: uppercase;color: #000}
+.navbot_item a:hover {color: #cb5600}
+
+@media (max-width : 640px){
+    .navbot_lst {flex-direction: column; align-items: flex-start}
+}
